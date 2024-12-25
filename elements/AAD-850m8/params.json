@@ -1,0 +1,41 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 64,
+        "width": 64
+    },
+    "display": "Card Validator",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1511197032634x399006125051528200/credit-card-with-tick.png",
+    "fields": {
+        "AAE": {
+            "caption": "Card Number",
+            "doc": "The card number to validate. Best to set it dynamically from an input box.",
+            "editor": "DynamicValue",
+            "name": "card_number",
+            "rank": 0,
+            "value": "_any_thing"
+        }
+    },
+    "icon": "ion-card",
+    "states": {
+        "AAF": {
+            "caption": "Card number is valid",
+            "doc": "Returns true if card number is valid",
+            "name": "validity",
+            "value": "boolean"
+        },
+        "AAG": {
+            "caption": "Card type",
+            "doc": "Returns the card type",
+            "name": "card_type",
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Card icon (use in text element)",
+            "doc": "Returns a font-awesome string that can be used in a Text element to display the card type logo. Obscure cards without font-awesome logos return a generic card icon.",
+            "name": "card_icon",
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "assets": {
+        "AAC": {
+            "name": "card validator",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1511194972105x785885768942534900/jquery.creditCardValidator.js"
+        },
+        "AAJ": {
+            "name": "card validator 1.20.0",
+            "url": "//meta-q.cdn.bubble.io/f1704469323837x980121180830189300/jquery.creditCardValidator.min.js"
+        }
+    },
+    "dependencies": {
+        "use_jquery": true
+    }
+}
